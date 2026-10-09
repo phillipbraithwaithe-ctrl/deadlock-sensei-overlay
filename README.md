@@ -1,8 +1,10 @@
 # Deadlock Sensei Overlay
 
-A small see-through panel that sits on top of Deadlock and shows the next item or skill to buy from [Deadlock Sensei](https://deadlocksensei.com), the two after it, your item slots, the game clock and the enemy team. Hotkeys handle "I bought it" and marking the enemy who's wrecking you.
+> **An in-between version.** The main Deadlock Sensei app will be the **Overwolf app** (in testing now). It reads the game for you, so your hero, the enemies and your purchases fill in by themselves, with quick "Buy X now" pop-ups. This overlay lets you use Sensei in-game until then.
 
-**[⬇ Download the latest version](https://github.com/phillipbraithwaithe-ctrl/deadlock-sensei-overlay/releases/latest)**
+A small see-through panel that sits on top of Deadlock and shows the next item or skill to buy from [Deadlock Sensei](https://deadlocksensei.com), the two after it (with item and skill pictures), your item slots, the game clock and the enemy team. Hotkeys handle "I bought it" and marking the enemy who's wrecking you.
+
+**[⬇ Download the latest version](https://github.com/phillipbraithwaithe-ctrl/deadlock-sensei-overlay/releases/latest)** · **[Join the Discord](https://discord.gg/AXw27gs7UM)** for help, bugs and ideas
 
 ## Setup
 1. In Deadlock, set **Settings → Video → Window mode** to **Borderless Windowed**. In exclusive fullscreen, nothing can draw over the game.
@@ -11,6 +13,8 @@ A small see-through panel that sits on top of Deadlock and shows the next item o
 3. It opens in the top-left and runs from the system tray. Right-click the tray icon to show or hide it, move it to a corner, turn click-through on or off, or quit.
 
 Before a match, press **Ctrl+Alt+C** so you can click the panel, pick your hero and the enemy team, then press **Live game**. Press **Ctrl+Alt+C** again so your clicks go through to the game.
+
+**Moving it:** with click-through off (Ctrl+Alt+C), drag the small handle at the top of the panel, or use the tray menu's corner presets.
 
 ## Hotkeys
 | Keys | Does |
@@ -28,3 +32,6 @@ Rebind them in `%APPDATA%\Deadlock Sensei Overlay\settings.json`.
 
 ## Safe by design
 The overlay **never touches the game**: no injection, no reading game memory or files, no simulated input, no screen capture. It's an ordinary always-on-top window plus Windows hotkeys, like Discord or OBS. Everything it shows comes from deadlocksensei.com, so it updates without a new download.
+
+## Help
+Questions, bugs and ideas: **[Deadlock Sensei Discord](https://discord.gg/AXw27gs7UM)** (#overlay-help, #bug-reports, #feedback).
